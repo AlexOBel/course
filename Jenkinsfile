@@ -13,6 +13,7 @@ pipeline {
                 echo "Start TEST"
                 echo "Testing..."
                 echo "End of Build"
+            }
         }
         stage('3-Deploy'){
             steps {
