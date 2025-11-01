@@ -10,6 +10,7 @@ pipeline {
             }
         }
         stage('2-Test'){
+            steps {
                 echo "Start TEST"
                 echo "Testing..."
                 echo "End of Build"
